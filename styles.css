@@ -1,4 +1,26 @@
+/* Global settings*/ 
+
 * {
     border: 1px solid black;
     box-sizing: border-box;
+  }
+
+  /* Main stylings */
+   
+  body {
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+  }
+
+  /* Classes & id's*/
+
+  .background-buildings {
+    width: 100%;
+    height: 100%;
+  }
+
+  .bb1{
+    width: 10%;
+    height: 70%;
   }
