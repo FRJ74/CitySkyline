@@ -32,6 +32,8 @@
     top: 0;
   }
 
+  /* BACKGROUND BUILDINGS - "bb" stands for "background building" */
+
   .bb1 {
     display: flex;
     flex-direction: column;
@@ -79,8 +81,11 @@
     .bb4 {
       width: 11%;
       height: 58%;
-      background-color: var(--building-color4);    
+      background-color: var(--building-color4);
+          
     }
+
+    /* FOREGROUND BUILDINGS - "fb" stands for "foreground building" */
 
     .fb1 {
       width: 10%;
@@ -101,11 +106,15 @@
       width: 8%;
       height: 45%;
       background-color: var(--building-color1);
+      position: relative;
+      left: 10%;
     }
     .fb5 {
       width: 10%;
       height: 33%;
       background-color: var(--building-color2);
+      position: relative;
+      right: 10%;
     }
     .fb6 {
       width: 9%;
