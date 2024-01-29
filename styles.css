@@ -13,6 +13,7 @@
     --window-color1: black;
     --window-color2: #8cd9b3;
     --window-color3: #d98cb3;
+    --window-color4: #8cb3d9;
   }
 
   /* Main stylings */
@@ -35,12 +36,15 @@
     top: 0;
   }
 
-  /* BACKGROUND BUILDINGS - "bb" stands for "background building" */
-
-  .bb1 {
+  .building-wrap {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  /* BACKGROUND BUILDINGS - "bb" stands for "background building" */
+
+  .bb1 {
     width: 10%;
     height: 70%;
   }
@@ -121,9 +125,7 @@
       background-color: var(--building-color4);
     }
 
-    .building-wrap {
-  
-    }
+    
 
     /* FOREGROUND BUILDINGS - "fb" stands for "foreground building" */
 
