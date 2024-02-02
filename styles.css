@@ -42,6 +42,16 @@
     align-items: center;
   }
 
+  .sky {
+    background: radial-gradient(
+      circle closest-corner at 15% 15%,
+      #ffcf33,
+      #ffcf33 20%,
+      #ffff66 21%,
+      #bbeeff 100%
+    );
+  }
+
   /* BACKGROUND BUILDINGS - "bb" stands for "background building" */
 
   .bb1 {
@@ -297,4 +307,17 @@
     border-radius: 50%;
     background-color: var(--window-color1);
     margin: 10%;
+  }
+
+  /* media queries */
+  @media (max-width: 1000px) {
+    .sky {
+      background: radial-gradient(
+          closest-corner circle at 15% 15%,
+          #ccc,
+          #ccc 20%,
+          #445 21%,
+          #223 100%
+        );
+    }
   }
